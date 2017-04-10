@@ -1,0 +1,156 @@
+* {
+	/*border-radius: 0 !important;*/
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family: "Lucida Grande", "PingFang SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #f6f6f6;
+}
+/*
+.navbar {
+	border-radius: 0;
+}*/
+
+@media (min-width:992px) {
+    .container {
+        width: 800px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 800px;
+    }
+}
+
+.sitename {
+	font-weight: bold;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.3em;
+	color: #fff;
+}
+
+.navbar-item {
+	float: right;
+	width: 30%;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+}
+
+.navbar-item a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.student-info {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 3px 15px;
+	background-color: #fff;
+	border-radius: 9px;
+	border: 1px solid #ccc;
+}
+
+.violation-info {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding: 9px 15px 15px 15px;
+	background-color: #fff;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #ddd;
+
+}
+
+.student-info .violation-info {
+	border:1px solid #ddd;
+	border-radius: 5px;
+}
+
+@media(max-width: 768px) {
+	.violation-info {
+		margin: 0 -15px 15px -15px;
+	}
+}
+
+.student-info-header,.violation-info-header {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	padding: 5px 0;
+	margin-bottom: 15px;
+}
+
+.stu-name {
+	float: left;
+	width: 50%;
+	text-align: left;
+	font-size: 18px;
+}
+
+.stu-name a {
+	color: #000;
+	text-decoration: none;
+}
+
+.class-teacher {
+	float: left;
+	width: 50%;
+	text-align: right;
+	color: #777;
+}
+
+.student-detail {
+	padding: 2px 0;
+}
+
+.event-detail {
+	color: #444;
+	padding: 2px 0;
+}
+
+.label {
+	font-size: 90%;
+}
+
+.edit-btn {
+	padding-left: 2px;
+	width: auto;
+	float: right;
+}
+
+.nav-btn {
+	height: 60px;
+}
+
+.search-box .form-control {
+	height: 45px;
+}
+
+.c-pun {
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.return-btn {
+	margin-bottom: 30px;
+}
+
+.admin-menu {
+	float: left;
+	padding: 15px 40px;
+	font-weight: 600;
+}
+
+.admin-menu a {
+	color: #fff49d;
+}
